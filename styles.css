@@ -8,19 +8,19 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
-  color: #2e2e2e;
-  background-color: #f8f4ed;
+  color: #f4f4f4;
+  background-color: #121212;
 }
 
 /* Navbar */
 .navbar {
-  background-color: #2e2e2e;
-  color: #fffaf2;
+  background-color: #1e1e1e;
+  color: #f4f4f4;
   padding: 1rem 0;
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .nav-container {
@@ -36,7 +36,7 @@ body {
 .logo {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #f8f4ed;
+  color: #ffffff;
 }
 
 #logoPequeño {
@@ -50,7 +50,7 @@ body {
 }
 
 .nav-links a {
-  color: #fffaf2;
+  color: #f4f4f4;
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 4px;
@@ -90,7 +90,7 @@ body {
 /* Secciones */
 .section {
   padding: 4rem 2rem;
-  background-color: #fffaf2;
+  background-color: #1a1a1a;
   scroll-margin-top: 100px;
 }
 
@@ -106,8 +106,8 @@ body {
 h2 {
   margin-bottom: 1.5rem;
   font-size: 2.2rem;
-  border-bottom: 3px solid #db9e36;
-  color:  #2e2e2e;;
+  border-bottom: 3px solid #ffffff;
+  color: #f4f4f4;
   padding-bottom: 0.5rem;
   width: 100%;
 }
@@ -115,14 +115,14 @@ h2 {
 h3 {
   margin-top: 1rem;
   font-size: 1.2rem;
-  color: #a47148;
+  color: #ffffff;
   font-weight: 600;
 }
 
 /* Card general */
 .card {
-  background-color: #ffffff;
-  border: 1px solid #e0d7cc;
+  background-color: #1e1e1e;
+  border: 1px solid #333;
   padding: 1.2rem;
   border-radius: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -137,7 +137,7 @@ h3 {
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
 }
 
 /* Imagen con hover dinámico */
@@ -147,7 +147,7 @@ h3 {
   padding-top: 75%;
   overflow: hidden;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
 }
 
 .img-container img {
@@ -188,10 +188,10 @@ h3 {
 .footer {
   text-align: center;
   padding: 2rem;
-  background-color: #2e2e2e;
-  color: #fffaf2;
+  background-color: #1e1e1e;
+  color: #f4f4f4;
   font-size: 0.9rem;
-  border-top: 4px solid #db9e36;
+  border-top: 4px solid #ffffff;
 }
 
 .space {
@@ -200,7 +200,7 @@ h3 {
 
 /* Etiquetas de contacto */
 #contacto p strong {
-  color: #a47148;
+  color: #ffffff;
 }
 
 /* Lista de habilidades e idiomas */
@@ -214,10 +214,11 @@ li {
   margin-bottom: 0.5rem;
 }
 
+/* Carrusel interno */
 .img-container.carousel-inner {
   position: relative;
   width: 100%;
-  padding-top: 75%; /* Mantiene ratio 4:3 */
+  padding-top: 75%;
   overflow: hidden;
   border-radius: 8px;
 }
@@ -255,5 +256,6 @@ li {
 }
 
 .carousel-controls button:hover {
-  background-color: #db9e36;
+  background-color: #ffffff;
+  color: #1e1e1e;
 }
